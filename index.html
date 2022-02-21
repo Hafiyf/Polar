@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Day10</title>
+</head>
+<body>
+  <section class="entry">
+    <div class="container">
+      <header class="header">
+        <a class="logo-link" href="./index.html">
+          <img class="logo" src="./image/logo.png" width="79" height="79" alt="Logo">
+        </a>
+        
+        <div class="header-wrapper">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link header-link-active" href="#">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#">Product</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link header-link-active" href="#">Pricing</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#">Testimonials</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          
+          <a href="" class="pink-link">Buy now</a>
+        </div> <!-- End of header-wrapper -->
+      </header> <!-- End of header -->
+    </div> <!-- End of container -->
+
+    <div class="container">
+        <div class="hero hero-container">
+        <h1 class="hero-heading">Feel inside cold with our delicious <span class="pink-text">ice-cream.</span></h1>
+        
+        <small class="small-text">Sweet fun, full of milk.</small>
+        
+        <p class="hero-text">Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts my words.</p>
+
+        <a href="" class="pink-link">Buy now</a>
+      </div> <!-- End of hero -->
+    </div> <!-- End of container -->
+
+  </section> <!-- End of entry -->
+
+  <section class="delivery">
+    <div class="container">
+      <div class="services">
+        <div class="service">
+          <img class="service-image" src="./image/car.png" width="51" height="43" alt="">
+          <h3 class="service-heading">Free shipping</h3>
+          <div class="service-text">Last Chance! Free shipping on all orders ends today.</div>
+        </div>
+
+        <div class="service">
+          <img class="service-image" src="./image/polar-group.png" width="51" height="43" alt="">
+          <h3 class="service-heading">Free shipping</h3>
+          <div class="service-text">Last Chance! Free shipping on all orders ends today.</div>
+        </div>
+
+        <div class="service service-active">
+          <img class="service-image" src="./image/cash-back.png" width="51" height="43" alt="">
+          <h3 class="service-heading">Free shipping</h3>
+          <div class="service-text">Last Chance! Free shipping on all orders ends today.</div>
+        </div>
+
+        <div class="service">
+          <img class="service-image" src="./image/fast-food.png" width="51" height="43" alt="">
+          <h3 class="service-heading">Free shipping</h3>
+          <div class="service-text">Last Chance! Free shipping on all orders ends today.</div>
+        </div>
+      </div> <!-- End of services -->
+    </div> <!-- End of container -->
+  </section> <!-- End of delivery -->
+
+  <section class="entry">
+    <div class="container sugar-container">
+      <h2 class="sugar-heading">Brown Sugar Oatmea</h2>
+      <p class="sugar-text hero-text">Together with McDonald’s, Burger King has grown to become synonymous with burgers in the US.Together with McDonald’s, Burger King has grown to become synonymous.</p>
+      <a href="#" class="pink-link">See details</a>
+    </div> <!-- End of container -->
+  </section> <!-- End of entry -->
+
+  <div class="question">
+    <div class="container">
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <fieldset class="field">
+          <legend>Ma'lumotlaringizni to'ldiring</legend>
+          
+          <div>
+            <label for="ism">Ismingiz?</label>
+            <input type="text" placeholder="ismigiz" value="Ali" id="ism" name="username" autocomplete="off" required>
+          </div>
+          <div>
+            <label for="pass">Parolingiz?</label>
+            <input type="password" placeholder="parol" id="pass" name="password" required>
+          </div>
+          <div>
+            <label for="tel">Parolingiz?</label>
+            <input type="tel" placeholder="telefoningiz" id="tel" name="phone" pattern="(?:\d{10,12}|\+\d{10,12}|\w+@\w+\.\w{2,4})" required>
+          </div>
+          <div>
+            <label for="yes">Ha</label>
+            <input type="radio" name="student" value="yes" id="yes" required>
+          </div>
+          <div>
+            <label for="no">Yo'q</label>
+            <input type="radio" name="student" value="no" id="no">
+          </div>
+          <div class="markaz">
+            <label for="center">O'quv markazingiz qaysi?</label>
+            <select class="select" name="center" id="center">
+              <option value="najot-talim">Najot ta'lim</option>
+              <option value="pdp">PDP</option>
+              <option value="napa">Napa</option>
+            </select>
+          </div>
+          <input type="submit" value="Yuborish">
+          <button type="reset">Reset</button>
+        </fieldset>
+
+      </form>
+    </div>
+  </div>
+</body>
+</html>
